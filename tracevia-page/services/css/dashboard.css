@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #002B45;
+    /* cor inspirada no mota-engil */
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* ===== FORMULÁRIO ===== */
+.form-box {
+    flex: 1;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-box label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-box input[type="text"],
+.form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.form-box input[type="text"]:focus,
+.form-box textarea:focus {
+    border-color: #002B45;
+    outline: none;
+}
+
+.form-box textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.form-box input[type="file"] {
+    margin-top: 10px;
+}
+
+.form-box button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.form-box button:hover {
+    background: #6b6b6b;
+}
+
+/* ===== LISTA DE SOLUÇÕES ===== */
+.lista-box {
+    flex: 1;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.lista-box h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #002B45;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin-bottom: 12px;
+    transition: 0.2s;
+}
+
+.item:hover {
+    background: #f1eeee;
+}
+
+.item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.item-info {
+    flex: 1;
+}
+
+.item-info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.item-info p {
+    margin: 4px 0 0;
+    font-size: 13px;
+    color: #555;
+}
+
+.btns {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-edit,
+.btn-del {
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-edit {
+    background: #002B45;
+}
+
+.btn-edit:hover {
+    background: #10415f;
+}
+
+.btn-del {
+    background: #cc0000;
+}
+
+.btn-del:hover {
+    background: #e01919;
+}

@@ -1,0 +1,33 @@
+/* 
+ * TRACEVIA - Variáveis de Cores
+ * Arquivo: assets/css/colors.css
+ */
+
+ :root {
+    /* Cores Principais */
+    --color-primary: #FEDC00;      /* Amarelo */
+    --color-secondary: #061922;    /* Azul Escuro */
+    --color-tertiary: #000000;     /* Preto */
+    
+    /* Cores Neutras */
+    --color-white: #FFFFFF;
+    --color-gray-light: #F5F5F5;
+    --color-gray-medium: #E0E0E0;
+    --color-gray-dark: #333333;
+    
+    /* Cores de Texto */
+    --text-primary: #000000;
+    --text-secondary: #333333;
+    --text-light: #FFFFFF;
+    --text-muted: #666666;
+    
+    /* Backgrounds */
+    --bg-white: #FFFFFF;
+    --bg-light: #F5F5F5;
+    --bg-dark: #061922;
+    --bg-black: #000000;
+    
+    /* Overlays */
+    --overlay-dark: rgba(0, 0, 0, 0.4);
+    --overlay-darker: rgba(0, 0, 0, 0.7);
+}
