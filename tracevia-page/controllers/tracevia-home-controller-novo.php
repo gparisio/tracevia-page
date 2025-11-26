@@ -95,12 +95,12 @@ if (!isset($_SESSION['language'])) {
 // ==================== RENDERIZAR A VIEW ====================
 
 // 1. Incluir Header (contém <html>, <head>, <body>, menu)
-require_once __DIR__ . '/../views/layouts/header.php';
+require_once (__DIR__ . '/../views/layouts/header.php');
 
 // 2. Incluir View da Home (contém apenas o conteúdo)
-require_once __DIR__ . '/../views/home/index.php';
+require_once (__DIR__ . '/../views/home/index.php');
 
 // 3. Incluir Footer (contém </body>, </html>, scripts)
-require_once __DIR__ . '/../views/layouts/footer.php';
+require_once (__DIR__ . '/../views/layouts/footer.php');
 
 ?>
