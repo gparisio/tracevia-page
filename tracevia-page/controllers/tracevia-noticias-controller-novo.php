@@ -87,12 +87,12 @@ $page_title = 'Notícias';
 // ==================== RENDERIZAR A VIEW ====================
 
 // 1. Incluir Header
-require_once __DIR__ . '/../views/layouts/header.php';
+require_once (__DIR__ . '/../views/layouts/header.php');
 
 // 2. Incluir View de Notícias
-require_once __DIR__ . '/../views/noticias/index.php';
+require_once (__DIR__ . '/../views/noticias/index.php');
 
 // 3. Incluir Footer
-require_once __DIR__ . '/../views/layouts/footer.php';
+require_once (__DIR__ . '/../views/layouts/footer.php');
 
 ?>
