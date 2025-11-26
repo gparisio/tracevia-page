@@ -65,12 +65,12 @@ $page_title = 'Soluções';
 // ==================== RENDERIZAR A VIEW ====================
 
 // 1. Incluir Header
-require_once __DIR__ . '/../views/layouts/header.php';
+require_once (__DIR__ . '/../views/layouts/header.php');
 
 // 2. Incluir View de Soluções
-require_once __DIR__ . '/../views/solucoes/index.php';
+require_once (__DIR__ . '/../views/solucoes/index.php');
 
 // 3. Incluir Footer
-require_once __DIR__ . '/../views/layouts/footer.php';
+require_once (__DIR__ . '/../views/layouts/footer.php');
 
 ?>
